@@ -101,7 +101,7 @@ textarea {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height:900px;
+    height:1000px;
 }
 
 h1{
@@ -110,37 +110,71 @@ h1{
     font-style: bold;
 }
 
+h2{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 50px;
+    color:#f3e6ed;
+}
+
+
 h3{
     font-family:"Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
 }
 
+
 li{
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
     display:inline-block;
+    position:relative;
+    bottom:800px;
+    left:500px;
 }
 
-.nav_overimg{
-    position:absolute;
+
+#button{
+    word-spacing: 50px;
+    margin-left: 40px;
+    margin-right: 50px;
+    padding:30px;
+    border-radius: 0.25rem;
+    background-color: rgba(255, 255, 255, .8);
 }
+
+#button:hover{
+    color:#fef2f0;
+    background: #d54339;
+}
+
 
 .recipes{
-    background-image: url("../img/recipespage.jpeg");
+    background-image: url("../img/recipespage.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    height:1000px;
 }
 
+.decor{
+    background-image: url("../img/decor.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:1000px;
+}
 
-
-
-
-
-
-
+.ettiquette{
+    background-image: url("../img/ettiquettepage.jpeg");
+    background-position: center center
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
 
 
 /* ==========================================================================
