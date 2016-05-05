@@ -15,5 +15,3 @@
 //ettiquette
 	//when the user hovers over any of the links, the page will turn a different shade
 
-
-	
