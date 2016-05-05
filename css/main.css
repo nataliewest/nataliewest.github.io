@@ -102,12 +102,18 @@ textarea {
     background-repeat: no-repeat;
     background-size: cover;
     height:1000px;
+    bottom-margin:10px;
 }
+
 
 h1{
     font-family: "Playfair Display", serif;
     font-weight: 700;
     font-style: bold;
+    position:fixed;
+    background-color: rgba(255, 255, 255, .8);
+    top:0px;
+    width:100%;
 }
 
 h2{
@@ -116,6 +122,7 @@ h2{
     font-style: bold;
     font-size: 50px;
     color:#f3e6ed;
+    position: fixed;
 }
 
 
@@ -128,24 +135,40 @@ h3{
 
 #button{
     word-spacing: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
     padding:30px;
     float:left;
-    border-radius: 0.25rem;
+    border-radius: 100px;
     background-color: rgba(255, 255, 255, .8);
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
-    display:inline;
     position:relative;
     bottom:800px;
     left:500px;
+    margin-top:100px;
+    list-style-type:none; 
 }
+
 
 #button:hover{
     color:#fef2f0;
     background: #d54339;
+}
+
+.quotes{
+    background-image: url("../img/homepageimg2.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:800px;
+}
+
+h4{
+   font-family:"Pacifico", cursive;
+   font-weight: 400;
+   font-size:25px;
+   color: #f3e6ed;
+   font-style: normal; 
 }
 
 
@@ -157,13 +180,21 @@ h3{
     height:1000px;
 }
 
-#recipes{
+#recipe_options{
     font-family: "Indie Flower", cursive;
     font-weight: 400;
     font-style: normal;
+    font-size:30px;
     display:inline-block;
-    bottom:800px;
-    left:500px;
+    list-style-type:none; 
+    margin-top:300px;
+    margin-left: 50px;
+    word-spacing: 20px;
+}
+
+footer{
+    margin-top: 400px;
+    color: #f3e6ed;
 }
 
 .decor{
