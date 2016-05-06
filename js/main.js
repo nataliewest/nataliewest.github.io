@@ -8,9 +8,21 @@
 //Recipe 
 	//when the user hovers over any of the links, the page will turn a different shade
 
+$('.recipe').hover(function(){
+	$('.recipes').addClass('grayscale');	
+});
+
+$('.recipe').mouseout(function(){
+	$('.recipes').removeClass('grayscale');
+});
+
 
 //decor
 	//when the user hovers over any of the links, the page will turn a different shade
+
+$(document).ready(function(){
+	$('.decor_line').addClass('animation');
+});	
 
 //ettiquette
 	//when the user hovers over any of the links, the page will turn a different shade

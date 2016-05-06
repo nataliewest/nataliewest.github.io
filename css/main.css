@@ -95,7 +95,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
 .banner{
     background-image: url("../img/homeimg1.jpeg");
     background-position: center center;
@@ -134,18 +133,20 @@ h3{
 
 #nav_overimg > li{
     display:inline;
-
 }
+
 
 
 .button{
     word-spacing: 50px;
-    padding:30px;
+    padding:50px;
     float:left;
-    border-radius: 100px;
+    border-radius: 300%;
     background-color: rgba(255, 255, 255, .8);
     font-family: "Indie Flower", cursive;
     font-weight: 400;
+    font-size:25px;
+    color:black;
     font-style: normal;
     position:relative;
     bottom:800px;
@@ -157,7 +158,7 @@ h3{
 
 .button:hover{
     color:#fef2f0;
-    background: #d54339;
+    background: #FF1493;
 }
 
 .quotes{
@@ -168,11 +169,40 @@ h3{
     height:800px;
 }
 
+p{
+    font-family: "Indie Flower", cursive;
+    font-weight:400;
+    font-size: 25px;
+    font-style:bold;
+    word-spacing:10px;
+    color:#FF1493;
+}
+
+.p1{
+    width:257px;
+    position:relative;
+    left:81px;
+}
+
+.p2{
+    width:257px;
+    position:relative;
+    left:830px;
+    top:-205px;
+}
+
+.p3{
+    width:257px;
+    position: relative;
+    left:500px;
+    top:-161px;
+}
+
 h4{
    font-family:"Pacifico", cursive;
    font-weight: 400;
-   font-size:25px;
-   color: #f3e6ed;
+   font-size:40px;
+   color: #FF1493;
    font-style: normal; 
 }
 
@@ -194,12 +224,45 @@ h4{
     list-style-type:none; 
     margin-top:300px;
     margin-left: 50px;
-    word-spacing: 20px;
+    word-spacing: 0px;
+}
+
+.recipe{
+    color:#f3e6ed;
+}
+
+.grayscale{
+    -webkit-filter: grayscale(100%);
+}
+
+.decor_line{
+    color:#f3e6ed;
+    position:relative;
+    left:450px;
+    top:1px;
+    line-height: 81px;
+}
+
+.decor_line:hover{
+    color:#FF1493;
+}
+
+.animation{
+/*    -webkit-animation: slide 10s;
+*/
+   transition: 10s;
+    left: 0;
 }
 
 footer{
     margin-top: 400px;
     color: #f3e6ed;
+    font-size:25px;
+    position:relative;
+    top:-28px;
+    left:10px;
+    background:#f3e6ed; 
+    width:6%;
 }
 
 .decor{
@@ -217,6 +280,8 @@ footer{
     background-size: cover;
     height: 1000px;
 }
+
+
 
 
 /* ==========================================================================
