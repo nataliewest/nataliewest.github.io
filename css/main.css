@@ -132,8 +132,13 @@ h3{
     font-style: normal;
 }
 
+#nav_overimg > li{
+    display:inline;
 
-#button{
+}
+
+
+.button{
     word-spacing: 50px;
     padding:30px;
     float:left;
@@ -150,7 +155,7 @@ h3{
 }
 
 
-#button:hover{
+.button:hover{
     color:#fef2f0;
     background: #d54339;
 }
