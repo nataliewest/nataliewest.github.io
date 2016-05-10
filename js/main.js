@@ -27,3 +27,6 @@ $(document).ready(function(){
 //ettiquette
 	//when the user hovers over any of the links, the page will turn a different shade
 
+$('.ettiquette_list').on('click',function(){
+	$('.ettiquette').toggleClass('.ettiquette_alt_img');
+});

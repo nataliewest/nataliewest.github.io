@@ -1,0 +1,173 @@
+<style type="text/css">
+
+#ruelala-email-form{
+  -webkit-text-size-adjust: none;
+  width: 1000px;
+  margin: 0 auto;
+  float:left;
+  min-height:720px;
+} 
+
+.left_side{
+  margin-top:30px;
+  height:760px;
+}
+
+.right_side{
+  margin-top:30px;
+  height:760px;
+}
+
+h1{
+  font-family:"adobe-caslon-pro", serif;
+  font-style:normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 0.037em;
+  word-spacing: 5px;
+  text-align: center;
+  padding-top:50px;
+}
+
+strong{
+  font-family:"adobe-caslon-pro", serif;
+  font-style:italic;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2{
+  font-family:"adobe-caslon-pro", serif;
+  font-style:normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.037em;
+  word-spacing: 5px;
+  text-align: center;
+  position:relative;
+  top:-291px;
+  left:10px;
+}
+
+h4{
+  font-family:"adobe-caslon-pro", serif;
+  font-style:normal;
+  font-weight: 400;
+  font-size:16px;
+  position:relative;
+  text-align: center;
+  top:-260px;
+  left: 10px;
+}
+
+p{
+  font-family: "adobe-caslon-pro", serif;
+  font-style:normal;
+  font-size:16px;
+  letter-spacing: 0.12em;
+  word-spacing: 3px;
+  text-align:center;
+  padding-bottom: 46px;
+}
+
+hr{
+  color:#D3D3D3;
+  width:15%;
+}
+
+.hr1{
+  position:relative;
+  top:-34px;
+}
+
+.hr2{
+  position:relative;
+  top:-286px;
+}
+
+button{
+  position:relative;
+  left:-500px;
+  font: 12px 'proxima_novaregular', Arial, sans-serif;
+  letter-spacing: .08em;
+  padding: 4px 20px;
+  border: 1px solid #cbcaca;
+  text-transform: uppercase;
+  color: #383838;
+  margin-top: 15px;
+}
+
+form{
+  display:block;
+}
+
+input{
+  display:block;
+  margin-left:-558px;
+  width:200px;
+  margin-bottom: 23px;
+  margin-top:-46px;
+  padding:6px;
+}
+
+#email_form{
+  position:relative;
+  top:-190px;
+  left:704px;
+}
+
+.success{
+  position:relative;
+}
+
+.catalog_page{
+  position: relative;
+}
+
+.error_messaging{
+  position:relative;
+}
+
+</style>
+
+<div id="ruelala-email-from">
+  <div class="left_side" style="float:left">
+    <img src="emails/side_image_ruelala.jpg?$staticlink$">
+  </div>
+  <div class="right_side" style="float:left">
+    <h1><strong>Our </strong> House <br> is<strong> your </strong> House</h1> 
+      <p>We're so glas you found us through Rue La La.<br>From bedding to furniture to fabulous decor<br>we've got everything you need to<br> create your dream home.</p>
+     <div class="hr1"> 
+      <hr>
+      </div>
+     <div class="success" id="success_page" style="visibility: hidden">
+      <h1>Thanks for signing up!</h1>
+        <p>Your offer will arrive in your inbox any minute.</p>
+        </div>
+       <div class="catalog_page" id="catalog_page" style="visibility: hidden">  
+        <p>catalog form</p>
+       </div> 
+    <div id="right_side_info2">
+      <h2>Enjoy 20% off your next purchase<br> when you join our list.</h2>   
+     </div>
+    <div class="hr2"> 
+     <hr>
+    </div>
+    <div class="header4"> 
+    <h4>Plus be the first to know about new collections,<br> exclusive sales, and special events.</h4>
+    </div>
+     <div id="email_form"> 
+     <form action="" method="post">
+        <input type="email" id="email" name="email" placeholder="Email">
+        <button class="submit_button" id="submit_button" name="submit" type="submit" value="Submit">SUMBIT</button>
+       </form>
+       </div>
+       <div class="error_message" id="error_message" style="visibility: hidden">
+          <p>Oops! That isn't a valid email address. Please try again.</p>
+         </div> 
+  </div>        
+</div>
+
+    

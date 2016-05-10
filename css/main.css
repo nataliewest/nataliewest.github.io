@@ -281,8 +281,27 @@ footer{
     height: 1000px;
 }
 
+.ettiquette_alt_img{
+    background-image: url("../img/ettiquette4.jpeg");
+    background-position: center center
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
 
+.ettiquette_class{
+    color:#ff0066;
+}
 
+.ettiquette_class:hover{
+    color: #ffcce0;
+}
+
+.ettiquette_list{
+    position:relative;
+    top:-71px;
+    left:847px;
+}
 
 /* ==========================================================================
    Helper classes
