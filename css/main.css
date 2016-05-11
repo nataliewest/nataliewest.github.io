@@ -195,7 +195,7 @@ p{
     width:257px;
     position: relative;
     left:500px;
-    top:-161px;
+    top:-178px;
 }
 
 h4{
@@ -255,6 +255,7 @@ h4{
 }
 
 footer{
+    font-family: "Playfair Display", serif;
     margin-top: 400px;
     color: #f3e6ed;
     font-size:25px;
@@ -263,6 +264,13 @@ footer{
     left:10px;
     background:#f3e6ed; 
     width:6%;
+
+}
+
+.e_footer{
+    position:relative;
+    top:-255px;
+    left:1125px;
 }
 
 .decor{
