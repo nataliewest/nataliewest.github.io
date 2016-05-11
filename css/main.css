@@ -109,7 +109,6 @@ h1{
     font-family: "Playfair Display", serif;
     font-weight: 700;
     font-style: bold;
-    position:fixed;
     background-color: rgba(255, 255, 255, .8);
     top:0px;
     width:100%;
@@ -133,14 +132,9 @@ h3{
 
 #nav_overimg > li{
     display:inline;
-}
-
-
-
-.button{
+    float:left;
     word-spacing: 50px;
     padding:50px;
-    float:left;
     border-radius: 300%;
     background-color: rgba(255, 255, 255, .8);
     font-family: "Indie Flower", cursive;
@@ -148,10 +142,27 @@ h3{
     font-size:25px;
     color:black;
     font-style: normal;
+    margin-top:2px;
+    margin-right:34px;
+    list-style-type:none; 
+}
+
+ul{
     position:relative;
-    bottom:800px;
-    left:500px;
-    margin-top:100px;
+    top:50%;
+    transform: translateY(50%);
+}
+
+.button{
+    word-spacing: 50px;
+    padding:50px;
+    border-radius: 300%;
+    background-color: rgba(255, 255, 255, .8);
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-size:25px;
+    color:black;
+    font-style: normal;
     list-style-type:none; 
 }
 
@@ -176,26 +187,24 @@ p{
     font-style:bold;
     word-spacing:10px;
     color:#FF1493;
+    float:left;
 }
 
 .p1{
-    width:257px;
+    width:30%;
     position:relative;
-    left:81px;
 }
 
 .p2{
-    width:257px;
+    width:30%;
     position:relative;
-    left:830px;
-    top:-205px;
+    left:348px;
 }
 
 .p3{
-    width:257px;
+    width:30%;
     position: relative;
-    left:500px;
-    top:-178px;
+    left:688px;
 }
 
 h4{
@@ -223,6 +232,18 @@ h4{
     display:inline-block;
     list-style-type:none; 
     margin-top:300px;
+    margin-left: 50px;
+    word-spacing: 0px;
+}
+
+#ettiquette_list{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size:30px;
+    display:inline-block;
+    list-style-type:none; 
+    margin-top:221px;
     margin-left: 50px;
     word-spacing: 0px;
 }
@@ -305,10 +326,9 @@ footer{
     color: #ffcce0;
 }
 
-.ettiquette_list{
+#ettiquette_list > li{
     position:relative;
-    top:-71px;
-    left:847px;
+    margin-bottom:20px;
 }
 
 /* ==========================================================================
