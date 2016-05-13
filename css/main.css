@@ -192,18 +192,15 @@ p{
 
 .p1{
     width:30%;
-    position:relative;
 }
 
 .p2{
     width:30%;
-    position:relative;
     left:348px;
 }
 
 .p3{
     width:30%;
-    position: relative;
     left:688px;
 }
 
@@ -331,6 +328,25 @@ footer{
     margin-bottom:20px;
 }
 
+@media screen and (max-width: 445px){
+
+.p1{
+    width:100%;
+    float:left;
+
+}
+
+.p2{
+    width:100%;
+    float:left;
+}
+
+.p3{
+    width:100%;
+    float:left;
+}
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
